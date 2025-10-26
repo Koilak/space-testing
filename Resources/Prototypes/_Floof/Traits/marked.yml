@@ -1,7 +1,7 @@
 - type: trait
   id: TraitorKillTarget
   category: Marked
-  points: 5
+  points: 3
   slots: 0
   requirements:
     - !type:CharacterJobRequirement
