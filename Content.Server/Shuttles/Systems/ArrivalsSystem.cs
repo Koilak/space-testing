@@ -88,7 +88,7 @@ public sealed class ArrivalsSystem : EntitySystem
     {
         base.Initialize();
 
-        SubscribeLocalEvent<PlayerSpawningEvent>(HandlePlayerSpawning, before: new []{ typeof(ContainerSpawnPointSystem), typeof(SpawnPointSystem)});
+        SubscribeLocalEvent<PlayerSpawningEvent>(HandlePlayerSpawning, before: new[] { typeof(ContainerSpawnPointSystem), typeof(SpawnPointSystem) });
 
         SubscribeLocalEvent<StationArrivalsComponent, StationPostInitEvent>(OnStationPostInit);
 
@@ -322,8 +322,10 @@ public sealed class ArrivalsSystem : EntitySystem
         if (ev.SpawnResult != null)
             return;
 
-        if (ev.HumanoidCharacterProfile?.SpawnPriority != SpawnPriorityPreference.Arrivals)
-            return;
+
+        // Claw Command, late joiners always spawn at arrivals.
+        //if (ev.HumanoidCharacterProfile?.SpawnPriority != SpawnPriorityPreference.Arrivals)
+        //    return;
 
         // Only works on latejoin even if enabled.
         if (!Enabled || _ticker.RunLevel != GameRunLevel.InRound)

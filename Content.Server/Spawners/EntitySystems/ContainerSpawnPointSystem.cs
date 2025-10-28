@@ -22,7 +22,7 @@ public sealed class ContainerSpawnPointSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        SubscribeLocalEvent<PlayerSpawningEvent>(HandlePlayerSpawning, before: [ typeof(SpawnPointSystem) ]);
+        SubscribeLocalEvent<PlayerSpawningEvent>(HandlePlayerSpawning, before: [typeof(SpawnPointSystem)]);
     }
 
     public void HandlePlayerSpawning(PlayerSpawningEvent args)
@@ -33,6 +33,8 @@ public sealed class ContainerSpawnPointSystem : EntitySystem
         JobPrototype? jobProto = null;
 
         // If it's just a spawn pref check if it's for cryo (silly).
+        // Claw Command disable spawning in cryo.
+        return;
         if (args.HumanoidCharacterProfile?.SpawnPriority != SpawnPriorityPreference.Cryosleep &&
             (!_proto.TryIndex(args.Job?.Prototype, out jobProto) || jobProto.JobEntity == null))
             return;

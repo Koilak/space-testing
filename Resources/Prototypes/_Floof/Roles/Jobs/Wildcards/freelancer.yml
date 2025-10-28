@@ -10,7 +10,7 @@
   canBeAntagTarget: false
   icon: "JobIconFreelancer"
   joinNotifyCrew: false
-  whitelisted: true
+  whitelisted: false
   access:
   - Maintenance
   - Freelancer
@@ -31,4 +31,3 @@
     belt: ClothingBeltUtilityFilled
     pocket1: WeaponPistolPollock
     pocket2: HarmonicaInstrument
-    
