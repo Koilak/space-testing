@@ -8,10 +8,26 @@
     solutions:
       drink:
         reagents:
-        - ReagentId: Whiskey
+        - ReagentId: Clawtail
           Quantity: 100
   - type: Label
     currentLabel: clawtail
   - type: Sprite
     sprite: _ClawCommand/Objects/Consumable/Drinks/clawtailbottle.rsi
   - type: Sealable
+
+- type: entity
+  parent: DrinkGlass
+  id: DrinkClawtailGlass
+  suffix: clawtail
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: Clawtail
+          Quantity: 30
+  - type: Icon
+    sprite: _ClawCommand/Objects/Consumable/Drinks/clawtail.rsi
+    state: icon

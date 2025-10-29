@@ -52,6 +52,9 @@ reagent-desc-vodka = Clear distilled alcoholic beverage that originates from Pol
 reagent-name-whiskey = whiskey
 reagent-desc-whiskey = A type of distilled alcoholic beverage made from fermented grain mash.
 
+reagent-name-clawtail = clawtail
+reagent-desc-clawtail = A type of distilled alcoholic beverage made from fermented grain mash.
+
 reagent-name-wine = wine
 reagent-desc-wine = An premium alchoholic beverage made from distilled grape juice.
 

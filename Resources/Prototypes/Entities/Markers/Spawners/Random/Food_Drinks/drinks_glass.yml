@@ -114,6 +114,7 @@
       - DrinkTheMartinez
       - DrinkMoonshineGlass
       - LemonLimeBittersGlass # DeltaV
+      - DrinkClawtailGlass # Claw Command
     chance: 0.8
     offset: 0.0
     #rare
