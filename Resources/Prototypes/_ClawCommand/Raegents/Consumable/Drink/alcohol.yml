@@ -4,7 +4,7 @@
   parent: BaseAlcohol
   desc: reagent-desc-clawtail
   physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: sweet
+  flavor: clawtail
   color: "#ff006f"
   metamorphicSprite:
     sprite: _ClawCommand/Objects/Consumable/Drinks/clawtail.rsi

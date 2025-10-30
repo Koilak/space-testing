@@ -75,7 +75,7 @@
   - type: StationEvent
     weight: 7
     duration: 1
-    minimumPlayers: 15
+    minimumPlayers: 3
   - type: BreakerFlipRule
 
 - type: entity
@@ -85,7 +85,7 @@
   components:
   - type: StationEvent
     startAnnouncement: true
-    minimumPlayers: 25
+    minimumPlayers: 3
     weight: 3
     duration: 1
   - type: BureaucraticErrorRule
@@ -97,7 +97,7 @@
   components:
   - type: StationEvent
     startAnnouncement: true
-    minimumPlayers: 15
+    minimumPlayers: 3
     weight: 5
     duration: 1
   - type: ClericalErrorRule
@@ -110,7 +110,7 @@
   - type: StationEvent
     weight: 5
     duration: 1
-    minimumPlayers: 10
+    minimumPlayers: 1
   - type: RandomEntityStorageSpawnRule
     prototype: MobSkeletonCloset
 
@@ -138,7 +138,7 @@
     duration: 1
     earliestStart: 60 #Floof
     reoccurrenceDelay: 60 # Floof
-    minimumPlayers: 30
+    minimumPlayers: 3
   - type: SpaceSpawnRule
   - type: AntagLoadProfileRule
   - type: AntagObjectives
@@ -186,7 +186,7 @@
     weight: 7 # Floof - Changed from 7.5
     duration: 1
     earliestStart: 45
-    minimumPlayers: 20
+    minimumPlayers: 3
   - type: RandomSpawnRule
     prototype: MobRevenant
 
@@ -220,7 +220,7 @@
   components:
   - type: StationEvent
     earliestStart: 15
-    minimumPlayers: 15
+    minimumPlayers: 3
     weight: 7
     startDelay: 50
     duration: 240
@@ -234,7 +234,7 @@
   - type: StationEvent
     earliestStart: 30
     weight: 7.5
-    minimumPlayers: 20 # Floof
+    minimumPlayers: 2 # Floof
     startAnnouncement: true
     endAnnouncement: true
     duration: null #ending is handled by MeteorSwarmRule
@@ -316,7 +316,7 @@
     earliestStart: 15
     weight: 6
     duration: 50
-    minimumPlayers: 30
+    minimumPlayers: 2
   - type: VentCrittersRule
     entries:
     - id: MobSnail
@@ -392,7 +392,7 @@
   - type: StationEvent
     startAnnouncement: true
     earliestStart: 15
-    minimumPlayers: 15
+    minimumPlayers: 2
     weight: 5
     startDelay: 50
     duration: 60
@@ -407,7 +407,7 @@
     startAnnouncement: true
     startDelay: 10
     earliestStart: 20
-    minimumPlayers: 15
+    minimumPlayers: 5
     weight: 5
     duration: 60
   - type: VentCrittersRule
@@ -428,7 +428,7 @@
     startAnnouncement: true
     startDelay: 10
     earliestStart: 20
-    minimumPlayers: 15
+    minimumPlayers: 2
     weight: 5
     duration: 60
   - type: VentCrittersRule
@@ -445,7 +445,7 @@
     startAnnouncement: true
     startDelay: 10
     earliestStart: 20
-    minimumPlayers: 20
+    minimumPlayers: 2
     weight: 1.5
     duration: 60
   - type: VentCrittersRule
@@ -458,39 +458,39 @@
       path: /Audio/Items/bikehorn.ogg
       params: {volume: 0.5}
 
-#- type: entity
-#  id: ZombieOutbreak
-#  parent: BaseGameRule
-#  categories: [ HideSpawnMenu ]
-#  components:
-#  - type: StationEvent
-#    earliestStart: 60
-#    minimumPlayers: 15
-#    weight: 2
-#    duration: 1
-#  - type: ZombieRule
-#  - type: AntagSelection
-#    definitions:
-#    - prefRoles: [ InitialInfected ]
-#      max: 3
-#      playerRatio: 10
-#      blacklist:
-#        components:
-#        - ZombieImmune
-#        - AntagImmune
-#      briefing:
-#        text: zombie-patientzero-role-greeting
-#        color: Plum
-#        sound: "/Audio/Ambience/Antag/zombie_start.ogg"
-#      components:
-#      - type: PendingZombie #less time to prepare than normal
-#        minInitialInfectedGrace: 300
-#        maxInitialInfectedGrace: 450
-#      - type: ZombifyOnDeath
-#      - type: IncurableZombie
-#      mindComponents:
-#      - type: InitialInfectedRole
-#        prototype: InitialInfected
+- type: entity
+  id: ZombieOutbreak
+  parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StationEvent
+    earliestStart: 60
+    minimumPlayers: 3
+    weight: 2
+    duration: 1
+  - type: ZombieRule
+  - type: AntagSelection
+    definitions:
+    - prefRoles: [ InitialInfected ]
+      max: 3
+      playerRatio: 10
+      blacklist:
+        components:
+        - ZombieImmune
+        - AntagImmune
+      briefing:
+        text: zombie-patientzero-role-greeting
+        color: Plum
+        sound: "/Audio/Ambience/Antag/zombie_start.ogg"
+      components:
+      - type: PendingZombie #less time to prepare than normal
+        minInitialInfectedGrace: 300
+        maxInitialInfectedGrace: 450
+      - type: ZombifyOnDeath
+      - type: IncurableZombie
+      mindComponents:
+      - type: InitialInfectedRole
+        prototype: InitialInfected
 
 - type: entity
   id: LoneOpsSpawn
@@ -498,9 +498,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
-    earliestStart: 60 # Floof - Changed from 35
+    earliestStart: 35 # Claw Command - Changed from 60
     weight: 3 # Floof - Changed from 5.5
-    minimumPlayers: 30 # Floof - changed from 20
+    minimumPlayers: 3 # Claw Command - changed from 30
     duration: 1
   - type: LoadMapRule
     preloadedGrid: ShuttleStriker
@@ -535,7 +535,7 @@
   - type: StationEvent
     earliestStart: 25
     weight: 8
-    minimumPlayers: 15
+    minimumPlayers: 2
     reoccurrenceDelay: 30
     startAnnouncement: false
 # - type: AlertLevelInterceptionRule - Disable setting to blue with sleeper agents. Uncomment to enable.
@@ -580,7 +580,7 @@
     weight: 2
     duration: 1
     earliestStart: 45
-    minimumPlayers: 20
+    minimumPlayers: 2
   - type: ImmovableRodRule
 
 - type: entity
@@ -601,7 +601,7 @@
   components:
     - type: StationEvent
       earliestStart: 20 # Floof
-      minimumPlayers: 20
+      minimumPlayers: 2
       maxOccurrences: 1 # this event has diminishing returns on interesting-ness, so we cap it
       weight: 5
     - type: MobReplacementRule
@@ -613,7 +613,7 @@
   components:
     - type: StationEvent
       earliestStart: 15
-      minimumPlayers: 5
+      minimumPlayers: 2
       maxOccurrences: 1
       weight: 1 # Annoying.
     - type: AirlockVirusRule

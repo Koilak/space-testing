@@ -7,7 +7,7 @@
     startAnnouncement: true
     earliestStart: 30
     reoccurrenceDelay: 12
-    minimumPlayers: 30
+    minimumPlayers: 3 # Claw changed from 30
     weight: 6 # Really weak compared to other critters
     duration: 60
   - type: VentCrittersRule
@@ -46,7 +46,7 @@
     startAnnouncement: true
     earliestStart: 30
     reoccurrenceDelay: 12
-    minimumPlayers: 20
+    minimumPlayers: 3 # Claw changed from 30
     weight: 6 # Really weak compared to other critters
     duration: 60
   - type: VentCrittersRule
@@ -63,7 +63,7 @@
     startAnnouncement: true
     earliestStart: 30
     reoccurrenceDelay: 12
-    minimumPlayers: 30
+    minimumPlayers: 3 # Claw changed from 30
     weight: 6 # Really weak compared to other critters
     duration: 60
   - type: VentCrittersRule
@@ -90,7 +90,7 @@
     startAnnouncement: true
     earliestStart: 30
     reoccurrenceDelay: 12
-    minimumPlayers: 30
+    minimumPlayers: 3 # Claw changed from 30
     weight: 6 # Really weak compared to other critters
     duration: 60
   - type: VentCrittersRule
@@ -103,7 +103,7 @@
       prob: 0.001
     - id: MobCobraSpace
       prob: 0.002
-      
+
 - type: entity
   id: reagentslimeVents
   parent: BaseGameRule
@@ -113,7 +113,7 @@
     startAnnouncement: true
     earliestStart: 60
     reoccurrenceDelay: 12
-    minimumPlayers: 80
+    minimumPlayers: 5 # Claw changed from 30
     weight: 6 # Really weak compared to other critters
     duration: 60
   - type: VentCrittersRule
@@ -179,6 +179,6 @@
   - type: StationEvent
     weight: 5
     duration: 1
-    minimumPlayers: 10
+    minimumPlayers: 3
   - type: RandomEntityStorageSpawnRule
     prototype: MobMimePenguin

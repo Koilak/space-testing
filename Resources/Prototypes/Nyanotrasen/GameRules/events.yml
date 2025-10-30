@@ -20,7 +20,7 @@
   - type: StationEvent
     weight: 7
     reoccurrenceDelay: 5
-    minimumPlayers: 15
+    minimumPlayers: 2
     earliestStart: 25
   - type: MidRoundAntagRule
 
@@ -149,7 +149,7 @@
     duration: 1
     earliestStart: 15
     reoccurrenceDelay: 15
-    minimumPlayers: 10
+    minimumPlayers: 1
   - type: GlimmerEvent
     minimumGlimmer: 350
     maximumGlimmer: 1000
