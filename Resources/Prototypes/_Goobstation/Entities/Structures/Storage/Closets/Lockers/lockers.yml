@@ -1,6 +1,6 @@
 - type: entity
   id: LockerBlueshieldOfficer
-  name: blueshield officer locker
+  name: claw command officer locker
   parent: LockerBaseSecure
   components:
   - type: Appearance

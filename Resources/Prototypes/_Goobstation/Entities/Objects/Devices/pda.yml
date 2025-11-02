@@ -1,7 +1,7 @@
 - type: entity
   parent: ERTLeaderPDA
   id: BlueshieldPDA
-  name: Blueshield Officer PDA
+  name: Claw Command Officer PDA
   description: The silver shield of the Blueshield is engraved on the front.
   components:
   - type: Pda

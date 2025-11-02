@@ -1,7 +1,7 @@
 department-Cargo = Cargo
-## Floof - Create dedicated service department  
+## Floof - Create dedicated service department
 department-Civilian = Service
-department-Command = Command
+department-Command = Claw Command
 department-Engineering = Engineering
 department-Medical = Medical
 department-Security = Security

@@ -24,7 +24,7 @@
     contents:
     - id: Flash
     - id: ClothingEyesGlassesMedSec
-    - id: PinpointerNuclear
+    # - id: PinpointerNuclear
     - id: ClothingHandsGlovesCombat
     - id: WeaponLeverChester
     - id: WeaponEnergyRevolver

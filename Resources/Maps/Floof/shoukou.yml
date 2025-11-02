@@ -61580,7 +61580,7 @@ entities:
       parent: 2
     - type: NavMapBeacon
       color: '#00FF00FF'
-      text: Blueshield Officers Office
+      text: Claw Command Officers Office
 - proto: DefaultStationBeaconWardensOffice
   entities:
   - uid: 5111

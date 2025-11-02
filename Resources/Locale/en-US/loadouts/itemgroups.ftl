@@ -84,14 +84,14 @@ character-item-group-LoadoutHeadOfPersonnelShoes = Head of Personnel Shoes
 character-item-group-LoadoutHeadOfPersonnelUniforms = Head of Personnel Uniforms
 
 # Dignitary - BlueshieldOfficer
-character-item-group-LoadoutBlueshieldOfficerBackpacks = Blueshield Officer Backpacks
-character-item-group-LoadoutBlueshieldOfficerVests = Blueshield Officer Vests
-character-item-group-LoadoutBlueshieldOfficerUniforms = Blueshield Officer Uniforms
+character-item-group-LoadoutBlueshieldOfficerBackpacks = Claw Command Officer Backpacks
+character-item-group-LoadoutBlueshieldOfficerVests = Claw Command Officer Vests
+character-item-group-LoadoutBlueshieldOfficerUniforms = Claw Command Officer Uniforms
 
 # Dignitary - Blueshield Maid
-character-item-group-LoadoutBlueshieldMaidBackpacks = Blueshield Maid Backpacks
-character-item-group-LoadoutBlueshieldMaidVests = Blueshield Maid Vests
-character-item-group-LoadoutBlueshieldMaidUniforms = Blueshield Maid Uniforms
+character-item-group-LoadoutBlueshieldMaidBackpacks = Claw Command Maid Backpacks
+character-item-group-LoadoutBlueshieldMaidVests = Claw Command Maid Vests
+character-item-group-LoadoutBlueshieldMaidUniforms = Claw Command Maid Uniforms
 
 # Dignitary - Magistrate
 character-item-group-LoadoutMagistrateHead = Magistrate Headgear

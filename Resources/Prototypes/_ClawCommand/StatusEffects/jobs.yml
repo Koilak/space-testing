@@ -1,6 +1,12 @@
 - type: jobIcon
   parent: JobIcon
-  id: JobIconBlueshieldMaid
+  id: JobIconClawCommandMaid
   icon:
     sprite: /Textures/_ClawCommand/Interface/Misc/job_icons.rsi
-    state: blueshieldmaid
+    state: clawcommandmaid
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconClawCommandOfficer
+  icon:
+    sprite: /Textures/_ClawCommand/Interface/Misc/job_icons.rsi
+    state: clawcommandofficer

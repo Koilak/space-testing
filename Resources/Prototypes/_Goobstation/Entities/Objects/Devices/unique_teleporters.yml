@@ -16,8 +16,8 @@
 - type: entity
   parent: BaseLockerTeleporter
   id: BlueshieldOfficerLockerTeleporter
-  name: blueshield locker teleporter
-  description: Device that allows you to request delivery of blueshield officer locker.
+  name: claw command locker teleporter
+  description: Device that allows you to request delivery of claw command locker.
   components:
   - type: Sprite
     state: bso

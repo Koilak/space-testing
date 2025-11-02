@@ -3,4 +3,4 @@ stamp-component-stamped-name-psychologist = Psychologist
 stamp-component-stamped-name-notary = NOTARY
 stamp-component-stamped-name-chiefjustice = Chief Justice
 stamp-component-stamped-name-admin-assistant = Administrative Assistant
-stamp-component-stamped-name-blueshield-maid = Blueshield Maid
+stamp-component-stamped-name-blueshield-maid = Claw Command Maid

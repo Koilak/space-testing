@@ -8,7 +8,10 @@
     },
     "states": [
         {
-            "name": "blueshieldmaid"
+            "name": "clawcommandmaid"
+        },
+        {
+            "name": "clawcommandofficer"
         }
     ]
 }

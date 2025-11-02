@@ -2,7 +2,7 @@
 
 - type: job
   id: BlueshieldMaid
-  name: Blueshield Maid
+  name: Claw Command Maid
   description: "Act as a servant and comforter for Command and CentCom VIPs."
   playTimeTracker: JobBlueshieldMaid
   requirements:
@@ -17,7 +17,7 @@
       min: 13500 # 3.25 hours
   weight: 20
   startingGear: BlueshieldMaidGear
-  icon: "JobIconBlueshieldMaid"
+  icon: "JobIconClawCommandMaid"
   requireAdminNotify: true
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
@@ -53,7 +53,7 @@
     head: ClothingHeadHatCatEarsCosmetic
     gloves: ClothingHandsGlovesColorWhite
     id: BlueshieldPDA
-    pocket1: UniqueBlueshieldOfficerLockerTeleporter
+    #pocket1: UniqueBlueshieldOfficerLockerTeleporter
     outerClothing: ClothingOuterArmorDuraVest
     belt: ClothingBeltKatanaSheathFilled
   storage:

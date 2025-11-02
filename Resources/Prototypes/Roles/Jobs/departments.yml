@@ -61,6 +61,9 @@
   - ERTEngineer
   - DeathSquad
   - AdministrativeAssistant # Delta V - Administrative Assistant, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Command/admin_assistant.yml
+  #Claw Command
+  - BlueshieldOfficer # Goobstation
+  - BlueshieldMaid # Claw Command
   primary: false
   weight: 100
 
@@ -69,10 +72,10 @@
   description: department-Dignitary-description
   color: "#33FE6D"
   roles:
-  - BlueshieldOfficer # Goobstation
+  #- BlueshieldOfficer # Goobstation
   - NanotrasenRepresentative # Goobstation
   - Magistrate # Goobstation
-  - BlueshieldMaid # Claw Command
+  #- BlueshieldMaid # Claw Command
   primary: false
   weight: 101
 

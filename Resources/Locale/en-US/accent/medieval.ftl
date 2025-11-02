@@ -756,3 +756,7 @@ accent-medieval-words-replace-237 = dost
 
 accent-medieval-prefix-238 = know
 accent-medieval-words-replace-238 = knoweth
+
+
+accent-medieval-words-239 = Claw Command Officer
+accent-medieval-words-replace-239 = Kingsguard

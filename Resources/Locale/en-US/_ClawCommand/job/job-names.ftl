@@ -1,1 +1,1 @@
-job-name-blueshield-maid = Blueshield Maid
+job-name-blueshield-maid = Claw Command Maid

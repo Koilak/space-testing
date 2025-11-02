@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBlueshieldOfficer
-  name: blueshield officer jumpsuit
+  name: claw command officer jumpsuit
   description: A short-sleeved grey and blue jumpsuit, made out of a sturdy material. Blueshield standard issue.
   components:
   - type: Sprite

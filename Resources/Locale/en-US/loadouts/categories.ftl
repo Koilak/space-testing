@@ -18,8 +18,8 @@ loadout-category-JobsCommandAUncategorized = All Command
 loadout-category-JobsCommandCaptain = Captain
 loadout-category-JobsCommandHeadOfPersonnel = Head of Personnel
 loadout-category-JobsCommandAdminAssistant = Administrative Assistant
-loadout-category-JobsCommandBlueshieldOfficer = Blueshield Officer
-loadout-category-JobsCommandBlueshieldMaid = Blueshield Maid
+loadout-category-JobsCommandBlueshieldOfficer = Claw Command Officer
+loadout-category-JobsCommandBlueshieldMaid = Claw Command Maid
 loadout-category-JobsCommandNanorep = Nanotrasen Representative
 loadout-category-JobsCommandMagistrate = Magistrate
 

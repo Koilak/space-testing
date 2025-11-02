@@ -1,7 +1,7 @@
 - type: job
   id: BlueshieldOfficer
-  name: Blueshield Officer
-  description: "Act as a bodyguard and advisor for Command and CentCom VIPs."
+  name: Claw Command Officer
+  description: "Act as a bodyguard and advisor for Claw Command and CentCom VIPs."
   playTimeTracker: JobBlueshieldOfficer
   requirements:
     - !type:DepartmentTimeRequirement
@@ -15,7 +15,7 @@
       min: 13500 # 3.75 hours
   weight: 20
   startingGear: BlueshieldOfficerGear
-  icon: "JobIconBlueshield"
+  icon: "JobIconClawCommandOfficer"
   requireAdminNotify: true
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
@@ -49,7 +49,7 @@
     ears: ClothingHeadsetAltCommand
     gloves: ClothingHandsGlovesCombat
     id: BlueshieldPDA
-    pocket1: UniqueBlueshieldOfficerLockerTeleporter
+    #pocket1: UniqueBlueshieldOfficerLockerTeleporter
 
     #outerClothing: ClothingBlueshieldArmourVest
     #ears: ClothingHeadsetAltCommand
