@@ -19,7 +19,19 @@
 # Ears
 
 # Equipment
-
+- type: loadout
+  id: LoadoutClothingBlueshieldMaidRevolver
+  category: JobsCommandBlueshieldMaid
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBlueshieldMaidWeapons
+    - !type:CharacterJobRequirement
+      jobs:
+        - BlueshieldMaid
+  items:
+    - WeaponRevolverTrashRemover
 # Eyes
 
 # Gloves
