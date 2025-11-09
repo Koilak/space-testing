@@ -26,7 +26,7 @@ public sealed class EmergencyAccessMedbayStateSystem : EntitySystem
     [Dependency] private readonly AccessReaderSystem _accessReaderSystem = default!;
 
     private bool _eaEnabled = true;
-    private TimeSpan _acoDelay = TimeSpan.FromSeconds(10);
+    private TimeSpan _acoDelay = TimeSpan.FromMinutes(10);
     private int _maxDoctorsForEA = 1;
     private ISawmill _log = default!;
 

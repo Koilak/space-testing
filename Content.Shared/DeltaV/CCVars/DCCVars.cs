@@ -46,7 +46,7 @@ public sealed class DCCVars
     /// How long with no captain before requesting an ACO be elected.
     /// </summary>
     public static readonly CVarDef<TimeSpan> RequestAcoDelay =
-        CVarDef.Create("game.request_aco_delay", TimeSpan.FromMinutes(15), CVar.SERVERONLY | CVar.ARCHIVE);
+        CVarDef.Create("game.request_aco_delay", TimeSpan.FromMinutes(10), CVar.SERVERONLY | CVar.ARCHIVE);
 
     /// <summary>
     /// Determines whether an ACO should be requested when the captain leaves during the round,
