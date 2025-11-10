@@ -28,13 +28,12 @@ public sealed class EmergencyAccessMedbayStateSystem : EntitySystem
     private bool _eaEnabled = true;
     private TimeSpan _acoDelay = TimeSpan.FromMinutes(10);
     private int _maxDoctorsForEA = 1;
-    private ISawmill _log = default!;
 
     public override void Initialize()
     {
 
         SubscribeLocalEvent<EmergencyAccessMedbayStateComponent, PlayerJobAddedEvent>(OnPlayerJobAdded);
-        SubscribeLocalEvent<EmergencyAccessMedbayStateComponent, PlayerJobsRemovedEvent>(OnPlayerJobsRemoved); _log = Logger.GetSawmill("mapsel");
+        SubscribeLocalEvent<EmergencyAccessMedbayStateComponent, PlayerJobsRemovedEvent>(OnPlayerJobsRemoved);
 
         base.Initialize();
     }
@@ -88,7 +87,6 @@ public sealed class EmergencyAccessMedbayStateSystem : EntitySystem
           args.JobPrototypeId == "Chemist" ||
           args.JobPrototypeId == "Paramedic")
         {
-            ent.Comp.IsAAInPlay = true;
             ent.Comp.DoctorCount += 1;
         }
     }
