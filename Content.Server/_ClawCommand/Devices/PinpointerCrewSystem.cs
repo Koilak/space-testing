@@ -19,7 +19,45 @@ public sealed partial class ServerPinpointerCrewSystem : EntitySystem
         SubscribeLocalEvent<PinpointerComponent, CrewTrackerSelectCrewMessage>(ChangeTarget);
 
     }
+    private float _timePassed = 0;
+    public override void Update(float frameTime)
+    {
+        _timePassed += frameTime;
+        if (_timePassed > 3)
+        {
+            _timePassed = 0;
+            var pointers = EntityManager.EntityQueryEnumerator<PinpointerCrewComponent, PinpointerComponent>();
+            while (pointers.MoveNext(out var pointerId, out var pinpointerCrewComponent, out var pinpointerComponent))
+            {
 
+                if (pinpointerComponent.IsActive == false)
+                {
+                    continue;
+                }
+
+                var sensors = EntityManager.EntityQueryEnumerator<SuitSensorComponent>();
+                var found = false;
+                while (sensors.MoveNext(out var sensorId, out var sensorComponent))
+                {
+                    if (sensorComponent.Mode == SuitSensorMode.SensorCords && sensorComponent.User is EntityUid cast3)
+                    {
+                        if (cast3 == pinpointerComponent.Target)
+                        {
+                            found = true;
+                            break;
+
+                        }
+                    }
+                }
+                if (!found)
+                {
+                    _sharedPinpointerSystem.SetActive(pointerId, false, pinpointerComponent);
+                    _sharedPinpointerSystem.SetTarget(pointerId, null, pinpointerComponent);
+                }
+
+            }
+        }
+    }
     private void ChangeTarget(EntityUid uid, PinpointerComponent pinpointer, CrewTrackerSelectCrewMessage args)
     {
         if (args.ID is not int targetID)
