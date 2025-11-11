@@ -130,6 +130,12 @@ public sealed class AlertLevelSystem : EntitySystem
     public void SetLevel(EntityUid station, string level, bool playSound, bool announce, bool force = false,
         bool locked = false, MetaDataComponent? dataComponent = null, AlertLevelComponent? component = null)
     {
+        var auto = false;
+        if (level == "blueAuto")
+        {
+            auto = true;
+            level = "blue";
+        }
         if (!Resolve(station, ref component, ref dataComponent)
             || component.AlertLevels == null
             || !component.AlertLevels.Levels.TryGetValue(level, out var detail)
@@ -164,9 +170,22 @@ public sealed class AlertLevelSystem : EntitySystem
         if (playSound)
             _announcer.SendAnnouncementAudio(alert, _stationSystem.GetInOwningStation(station));
         if (announce)
-            _announcer.SendAnnouncementMessage(alert, "alert-level-announcement", null, detail.Color, null, null,
-                ("name", name), ("announcement", announcement));
+        {
 
+            if (auto)
+            {
+                _chatSystem.DispatchStationAnnouncement(station, "Enemy communications intercepted. Suspected security threat to the station or its crew. Crewmembers are advised to follow commands issued by any relevant authority.",
+                colorOverride: detail.Color,
+                sender: "Claw Command",
+                playDefaultSound: false);
+            }
+            else
+            {
+
+                _announcer.SendAnnouncementMessage(alert, "alert-level-announcement", null, detail.Color, null, null,
+                    ("name", name), ("announcement", announcement));
+            }
+        }
         RaiseLocalEvent(new AlertLevelChangedEvent(station, level));
     }
 }

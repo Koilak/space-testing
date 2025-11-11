@@ -30,7 +30,7 @@ public sealed partial class EmergencyAccessMedbayStateComponent : Component
     /// Used to denote that AA has been brought into the round either from captain or safe.
     /// </summary>
     [DataField]
-    public bool IsAAInPlay;
+    public bool IsAAInPlay = false;
 
     /// <summary>
     /// The localization ID for announcing that AA has been unlocked for ACO
