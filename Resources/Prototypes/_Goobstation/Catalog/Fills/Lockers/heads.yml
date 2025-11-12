@@ -27,7 +27,7 @@
     # - id: PinpointerNuclear
     - id: ClothingHandsGlovesCombat
     - id: WeaponLeverChester
-    - id: WeaponEnergyRevolver
+    # - id: WeaponEnergyRevolver # only accessible through loadout menu.
     - id: BlueshieldAmmunitionBoxFilled
 
 - type: entity
