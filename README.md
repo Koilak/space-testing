@@ -16,7 +16,7 @@ Floof Station is a fork of [Einstein-Engines](https://github.com/Simple-Station/
 
 [Discord](https://discord.gg/Bj5DjEJNPq) (NOTE: in order to access to the rest of the Discord, you will have to be whitelisted first!)
 
-[Wiki](https://wiki.floofstation.com/index.php/Main_Page) (NOTE: you will need a SS14 account in order to access the Wiki!)
+[Wiki](https://wiki.spacestation14.com/wiki/) (NOTE: you will need a SS14 account in order to access the Wiki!)
 
 [Online Cookbook](https://heurl.in/ss14/recipes?fork=floof) (kindly provided by the wonderful Arimah <3)
 

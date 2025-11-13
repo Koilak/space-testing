@@ -9,7 +9,7 @@
     layers:
     - state: law_space
   - type: HyperlinkBook
-    url: https://wiki.floofstation.com/index.php/Space_Law # Floof
+    url: https://wiki.spacestation14.com/wiki/Space_Law # Floof
   - type: Tag
     tags:
     - Book
@@ -26,7 +26,7 @@
     layers:
     - state: law_trial
   - type: HyperlinkBook
-    url: https://wiki.floofstation.com/index.php/Judicial_Standard_Operating_Procedure # Floof
+    url: https://wiki.spacestation14.com/wiki/Space_Law # Floof
   - type: Tag
     tags:
     - Book
@@ -52,7 +52,7 @@
       color: "#C0C0C0"
     - state: icon_stunbaton
   - type: HyperlinkBook
-    url: https://wiki.floofstation.com/index.php/Security_Standard_Operating_Procedure # Floof
+    url: https://wiki.spacestation14.com/wiki/Space_Law # Floof
   - type: Tag
     tags:
     - Book
