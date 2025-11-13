@@ -22,4 +22,10 @@
       id: LoadoutClothingUniformJumpskirtBlueshieldOfficer
     - type: loadout
       id: LoadoutClothingUniformJumpsuitBlueshieldOfficer
-      
+
+- type: characterItemGroup
+  id: LoadoutBlueshieldOfficerMartialArts
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutMartialArtsBlueshieldCQC
