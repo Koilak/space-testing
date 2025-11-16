@@ -23,7 +23,7 @@
         priority: 2
         whitelist:
           tags:
-          - MagazineMagnumLeverRifle
+          - MagazineMagnumLeverRifleRubber
       gun_chamber:
         name: Chamber
         priority: 1
