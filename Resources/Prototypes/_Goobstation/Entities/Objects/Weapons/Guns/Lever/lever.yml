@@ -23,7 +23,7 @@
         priority: 2
         whitelist:
           tags:
-          - MagazineMagnumLeverRifleRubber
+          - MagazineMagnumLeverRifleRubber # ClawCommand change
       gun_chamber:
         name: Chamber
         priority: 1
@@ -31,7 +31,7 @@
           tags:
           - CartridgeMagnum
   - type: Gun
-    fireRate: 0.75
+    fireRate: 0.75 #ClawCommand change
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/batrifle.ogg
   - type: ChamberMagazineAmmoProvider
