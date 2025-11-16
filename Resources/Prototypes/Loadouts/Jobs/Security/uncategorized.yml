@@ -89,14 +89,14 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutSecurityBelt
-    - !type:CharacterLogicOrRequirement
+    - !type:CharacterLogicOrRequirement #Claw Command start
       requirements:
       - !type:CharacterDepartmentRequirement
         departments:
         - Security
       - !type:CharacterJobRequirement
         jobs:
-        - BlueshieldOfficer
+        - BlueshieldOfficer #Claw command end
   items:
     - ClothingBeltHolster
 
