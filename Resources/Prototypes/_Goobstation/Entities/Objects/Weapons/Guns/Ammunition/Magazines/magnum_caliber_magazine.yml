@@ -52,6 +52,8 @@
   - type: BallisticAmmoProvider
     proto: null
 
+# ClawCommand Adition:
+
 - type: entity
   id: MagazineMagnumLeverRifleRubber
   parent: MagazineMagnumLeverRifle
