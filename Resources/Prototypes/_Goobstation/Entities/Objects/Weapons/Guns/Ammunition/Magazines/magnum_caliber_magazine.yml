@@ -51,3 +51,11 @@
   components:
   - type: BallisticAmmoProvider
     proto: null
+
+- type: entity
+  id: MagazineMagnumLeverRifleRubber
+  parent: MagazineMagnumLeverRifle
+  suffix: Rubber
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumRubber
