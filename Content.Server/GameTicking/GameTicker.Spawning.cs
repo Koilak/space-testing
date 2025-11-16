@@ -279,7 +279,7 @@ namespace Content.Server.GameTicking
                     var brain = SpawnInContainerOrDrop(DefaultAi, aiEntity, StationAiCoreComponent.Container);
 
                     _mind.ControlMob(mob, brain);
-                    _chatSystem.DispatchStationAnnouncement(station, "Station AI {$character} has been installed.");
+                    _chatSystem.DispatchStationAnnouncement(station, $"Station AI {character} has been installed.");
                     break;
                 }
 
