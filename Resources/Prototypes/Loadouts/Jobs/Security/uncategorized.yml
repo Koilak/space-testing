@@ -51,9 +51,14 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutSecurityBelt
-    - !type:CharacterDepartmentRequirement
-      departments:
+    - !type:CharacterLogicOrRequirement
+      requirements:
+      - !type:CharacterDepartmentRequirement
+        departments:
         - Security
+      - !type:CharacterJobRequirement
+        jobs:
+        - BlueshieldOfficer
   items:
     - ClothingBeltSecurityWebbingFilled
 
@@ -65,9 +70,14 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutSecurityBelt
-    - !type:CharacterDepartmentRequirement
-      departments:
+    - !type:CharacterLogicOrRequirement
+      requirements:
+      - !type:CharacterDepartmentRequirement
+        departments:
         - Security
+      - !type:CharacterJobRequirement
+        jobs:
+        - BlueshieldOfficer
   items:
     - ClothingBeltSecurityFilled
 
@@ -79,9 +89,14 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutSecurityBelt
-    - !type:CharacterDepartmentRequirement
-      departments:
+    - !type:CharacterLogicOrRequirement
+      requirements:
+      - !type:CharacterDepartmentRequirement
+        departments:
         - Security
+      - !type:CharacterJobRequirement
+        jobs:
+        - BlueshieldOfficer
   items:
     - ClothingBeltHolster
 
