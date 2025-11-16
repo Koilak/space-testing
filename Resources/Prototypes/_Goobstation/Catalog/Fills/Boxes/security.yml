@@ -8,5 +8,6 @@
     - id: MagazineBoxMagnum
     - id: MagazineBoxMagnumFlash
     - id: MagazineBoxMagnumEMP
+    - id: MagazineBoxMagnumRubber
     - id: MagazineMagnumLeverRifleEmpty
       amount: 2
