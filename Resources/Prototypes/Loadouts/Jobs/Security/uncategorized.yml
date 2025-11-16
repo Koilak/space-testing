@@ -51,14 +51,14 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutSecurityBelt
-    - !type:CharacterLogicOrRequirement
+    - !type:CharacterLogicOrRequirement #Claw Command Change stary
       requirements:
       - !type:CharacterDepartmentRequirement
         departments:
         - Security
       - !type:CharacterJobRequirement
         jobs:
-        - BlueshieldOfficer
+        - BlueshieldOfficer #Claw Command Change End
   items:
     - ClothingBeltSecurityWebbingFilled
 
@@ -70,14 +70,14 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutSecurityBelt
-    - !type:CharacterLogicOrRequirement
+    - !type:CharacterLogicOrRequirement #Claw Command Change start
       requirements:
       - !type:CharacterDepartmentRequirement
         departments:
         - Security
       - !type:CharacterJobRequirement
         jobs:
-        - BlueshieldOfficer
+        - BlueshieldOfficer #Claw command wnd
   items:
     - ClothingBeltSecurityFilled
 
