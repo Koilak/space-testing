@@ -34,7 +34,7 @@
 
 - type: entity
   parent: BasePlushie
-  id: mattew_plushie
+  id: PlushieMattew
   name: Mattew Chief plushie
   description:  A much more pettable version of Mattew Chief. It seems like it had ruff day.
   components:
@@ -63,7 +63,7 @@
 
 - type: entity
   parent: BasePlushie
-  id: stefanie_plushie
+  id: PlushieStefanie
   name: Stefanie plushie
   description:  This plushie seems... evil. You have no clue why.
   components:

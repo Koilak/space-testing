@@ -374,6 +374,21 @@
   materials:
     PrizeTicket: 50
 
+- type: latheRecipe #Claw Command
+  id: PlushieStefanie
+  result: PlushieStefanie
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 50
+
+- type: latheRecipe #Claw Command
+  id: PlushieMattew
+  result: PlushieMattew
+  applyMaterialDiscount: false
+  completetime: 0.1
+  materials:
+    PrizeTicket: 50
 
 - type: latheRecipe
   id: PlushieCatGrey

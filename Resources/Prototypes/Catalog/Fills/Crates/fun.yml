@@ -10,9 +10,9 @@
     - id: PlushieNuke
     - id: PlushieSlime
     - id: PlushieSnake
-    - id: PlushieSteele
-    - id: mattew_plushie
-    - id: stefanie_plushie
+    - id: PlushieSteele # ClawCommand
+    - id: PlushieMattew # ClawCommand
+    - id: PlushieStefanie # ClawCommand
     - !type:GroupSelector
       children:
       - id: PlushieLizard

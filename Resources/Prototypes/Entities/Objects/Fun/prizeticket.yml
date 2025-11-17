@@ -252,6 +252,12 @@
       - id: PlushieSteele # claw command
         prob: 0.80
         orGroup: Prize
+      - id: PlushieMattew # claw command
+        prob: 0.80
+        orGroup: Prize
+      - id: PlushieStefanie # claw command
+        prob: 0.80
+        orGroup: Prize
       - id: PlushieCatGrey
         prob: 0.80
         orGroup: Prize
