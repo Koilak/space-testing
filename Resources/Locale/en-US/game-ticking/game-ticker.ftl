@@ -7,7 +7,7 @@ game-ticker-unknown-role = Unknown
 game-ticker-delay-start = Round start has been delayed for {$seconds} seconds.
 game-ticker-pause-start = Round start has been paused.
 game-ticker-pause-start-resumed = Round start countdown is now resumed.
-game-ticker-player-join-game-message = Welcome to Claw Command Station 14 [18+], a brand new server for adults! We have populated play events on Friday and Saturday (around 11pm CEST). Be sure to read the game rules, and don't be afraid to ask for help in the chat via LOOC or OOC. If you spawned mid-round you must follow the arrows and await the arrivals shuttle.
+game-ticker-player-join-game-message = Welcome to Claw Command Station 14 [18+], a brand new server for adults! We have populated play events on Friday and Saturday. Be sure to read the game rules, and don't be afraid to ask for help in the chat via Ahelp (f1), LOOC or OOC. If you spawned mid-round you must follow the arrows and await the arrivals shuttle.
 game-ticker-get-info-text = Hi and welcome to [color=white]Space Station 14![/color]
                             The current round is: [color=white]#{$roundId}[/color]
                             The current alert level is: {$alertLevel}
