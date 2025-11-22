@@ -1,8 +1,8 @@
 - type: playTimeTracker
   id: JobBlueshieldOfficer
 
-- type: playTimeTracker
-  id: JobBlueshieldMaid
+#- type: playTimeTracker
+#  id: JobBlueshieldMaid
 
 - type: playTimeTracker
   id: JobNanotrasenRepresentative

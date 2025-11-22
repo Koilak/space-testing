@@ -4,7 +4,7 @@
   id: BlueshieldMaid
   name: Claw Command Maid
   description: "Act as a servant and comforter for Command and CentCom VIPs."
-  playTimeTracker: JobBlueshieldMaid
+  playTimeTracker: JobBlueshieldOfficer
   requirements:
     - !type:DepartmentTimeRequirement
       department: Command
